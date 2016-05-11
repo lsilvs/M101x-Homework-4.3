@@ -1,5 +1,3 @@
-angular momentum
-
 # Code Exercise
 
 In this exercise, you will implement the home view for the MEAN retail
@@ -16,6 +14,15 @@ this exercise.
 
 In order to run tests, you should:
 
+Inside server folder:
+
+1. Copy your completed `config.json` from the Chapter 3 homework assignment
+2. Run `mongorestore`
+2. Run `npm install`
+3. Run `node index.js`
+
+Inside assessment folder:
+
 1. Run `npm install` in the provided sample code
 1. Start gulp using `./node_modules/gulp/bin/gulp.js watch`
 1. Start karma using `./node_modules/karma/bin/karma start ./karma.local.conf.js`
@@ -28,6 +35,8 @@ LOG: 'Tests Succeeded! Copy/paste the below code to complete this assignment:'
 LOG: '<secret code here>'
 Chrome 43.0.2357 (Linux): Executed 4 of 4 SUCCESS (0.21 secs / 0.126 secs)
 ```
+
+To visit the app open `http://localhost:3000/assessment/` using the browser.
 
 Here's what you need to do with `controllers.js` and
 `templates/search_bar.html` to complete this assignment.
