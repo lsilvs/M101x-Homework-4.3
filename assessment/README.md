@@ -1,3 +1,5 @@
+angular momentum
+
 # Code Exercise
 
 In this exercise, you will implement the home view for the MEAN retail
